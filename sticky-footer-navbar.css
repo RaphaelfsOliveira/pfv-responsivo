@@ -108,11 +108,11 @@ footer .col-sm-4 {
 }
 /*----------- link footer ------------------------*/
 
-footer .col-sm-4 a:visited, a:link{
+footer .col-sm-4 a:visited, a:link, a:active{
     color: #5e5e5e;
 }
 
-footer .col-sm-4 a:hover, a:active {
+footer .col-sm-4 a:hover {
     color: #fff;
 }
 
