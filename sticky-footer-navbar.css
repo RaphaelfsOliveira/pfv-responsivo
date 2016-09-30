@@ -55,6 +55,22 @@ header a:hover {
     color: #fff;
 }
 
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 2px;
+    border-color: #000000;
+}
+
+.navbar-collapse {
+    padding-right: 15px;
+    padding-left: 15px;
+    border: 0;
+}
+
+.navbar-header {
+    border: #000;
+}
+
 body .navbar-fixed-top{
   background-color: #000;
 }
