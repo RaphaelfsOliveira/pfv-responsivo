@@ -44,6 +44,7 @@ body .navbar-fixed-top{
   /* Set the fixed height of the footer here */
   height: 60px;
   background-color: #000;
+  color: #fff;
 }
 
 /* Custom page CSS
@@ -72,13 +73,11 @@ code {
 .jumbotron {
   display: flex;
   align-items: center;
-  #background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/jumbotron.jpg');
   background-image: url('imgEventos/evento3.jpg');
   background-size: cover;
   background-position: center;
   color: #ffffff;
   height: 600px;
-  text-shadow: 0.25px 0.25px 0.25px #000;
 }
 
 .jumbotron h2 {
@@ -87,14 +86,12 @@ code {
   margin: 0;
   color: #fff;
   text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
-  #text-shadow:#fff -1px -1px 2px;
 }
 
 .jumbotron h3 {
   margin: 0 0 20px;
   color: #fff;
   text-shadow:#000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
-  #text-shadow:#fff -1px -1px 2px;
 }
 
 footer .col-sm-8 {
@@ -103,7 +100,24 @@ footer .col-sm-8 {
 }
 
 footer .col-sm-4 {
-  float: left;
+    float: left;
+    #text-align: center;
+    padding-top: 25px;
+    font-size: 9px;
+
+}
+/*----------- link footer ------------------------*/
+
+footer .col-sm-4 a:visited, a:link{
+    color: #5e5e5e;
+}
+
+footer .col-sm-4 a:hover, a:active {
+    color: #fff;
+}
+
+footer .col-sm-1 a{
+    padding: 5px;
 }
 
 footer ul {
@@ -117,5 +131,4 @@ footer li img {
 
 footer .container {
     padding-top: 15px;
-
 }
