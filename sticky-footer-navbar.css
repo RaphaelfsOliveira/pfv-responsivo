@@ -103,9 +103,9 @@ footer .col-sm-4 {
     float: left;
     #text-align: center;
     padding-top: 25px;
-    font-size: 9px;
-
+    font-size: 12px;
 }
+
 /*----------- link footer ------------------------*/
 
 footer .col-sm-4 a:visited, a:link, a:active{
