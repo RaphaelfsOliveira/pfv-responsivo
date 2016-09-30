@@ -102,6 +102,10 @@ footer .col-sm-8 {
   justify-content: flex-end;
 }
 
+footer .col-sm-4 {
+  float: left;
+}
+
 footer ul {
   list-style: none;
 }
@@ -109,4 +113,9 @@ footer ul {
 footer li img {
   width: 30px;
   height: 30px;
+}
+
+footer .container {
+    padding-top: 15px;
+
 }
