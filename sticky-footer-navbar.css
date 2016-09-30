@@ -33,9 +33,9 @@ header a:hover {
 
 /*--------------configuração navbar-top-----------------------*/
 
-.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
-    color: #fff;
-}
+/*.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #000;
+}*/
 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand {
     color: #fff;
