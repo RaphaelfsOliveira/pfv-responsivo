@@ -6,8 +6,9 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
-  background-color: #000;
+    margin-bottom: 60px;
+    background-color: #000;
+    font-family: 'Poiret One', cursive;
 }
 
 /* configuração de links geral */
